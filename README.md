@@ -3,6 +3,7 @@ A collection of resources for linux and macOS/iOS reverse engineering
 
 
 ## linux-re-101
+
 Work in progress as I am actively collecting these.
 
 Keep these handy
@@ -16,7 +17,8 @@ Keep these handy
 - "ELF for the ARM64" http://infocenter.arm.com/help/topic/com.arm.doc.ihi0056b/IHI0056B_aaelf64.pdf
 - "How to write shared libraries" by Ulrich Drepper http://www.akkadia.org/drepper/dsohowto.pdf
 
-Must read
+### Must read
+
 - "The 101 of ELF Binaries on Linux: Understanding and Analysis" https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
 - ELF101 from Corkami (Ange Albertini) http://imgur.com/a/JEObT
 - "How programs get run: ELF binaries" https://lwn.net/Articles/631631/
@@ -30,7 +32,9 @@ Must read
 https://www.cs.stevens.edu/~jschauma/631/elf.html
 - "LD_NOT_PRELOADED_FOR_REAL" http://haxelion.eu/article/LD_NOT_PRELOADED_FOR_REAL/
 - "Understanding Linux Malware" http://www.s3.eurecom.fr/docs/oakland18_cozzi.pdf (good paper!)
-101
+
+### 101
+
 - Optional: "Guide to x86 assembly" http://www.cs.virginia.edu/~evans/cs216/guides/x86.html
 - Optional: "Assembly x86_64 programming for Linux" http://0xax.blogspot.sk/p/assembly-x8664-programming-for-linux.html
 - Optional: x64 assembly http://rayseyfarth.com/asm/pdf/index.html
@@ -53,7 +57,9 @@ https://www.cs.stevens.edu/~jschauma/631/elf.html
 - "What is linux-gate.so.1?" http://www.trilithium.com/johan/2005/08/linux-gate/
 - "Understanding ld-linux.so.2 " http://www.cs.virginia.edu/~dww4s/articles/ld_linux.html
 - "Linux process states" https://idea.popcount.org/2012-12-11-linux-process-states/
-201
+
+### 201
+
 - Optional: "Linkers - 20 parts" http://www.airs.com/blog/page/4?s=linkers
 - "Static linking (x86) internals" http://sploitfun.blogspot.sk/2013/02/linking-with-static-library-internals.html
 - "Static linking (x86_64) internals" http://sploitfun.blogspot.sk/2013/07/static-linking-x8664-internals.html
@@ -66,7 +72,9 @@ https://www.cs.stevens.edu/~jschauma/631/elf.html
 - "Position Independent Code (PIC) in shared libraries x64" http://eli.thegreenplace.net/2011/11/11/position-independent-code-pic-in-shared-libraries-on-x64/
 - "Relocations, relocations" http://www.mindfruit.co.uk/2012/06/relocations-relocations.html
 - Good night reading: "Linux on the Half-ELF" http://mammon.github.io/tales/linux_re.txt
-Packers, obfuscation, and encryption
+
+### Packers, obfuscation, and encryption
+
 - "Runtime binary encryption" http://phrack.org/issues/58/5.html
 - "Next-Gen Runtime Binary Encryption" http://phrack.org/issues/63/13.html
 - "Binary Protection Schemes" http://indra.linuxstudy.pe.kr/study/Binary%20Protection%20Schemes.pdf
@@ -75,7 +83,9 @@ Packers, obfuscation, and encryption
 - "ELF Encrypter" http://elf-encrypter.sourceforge.net/
 - "midgetpack is a multiplatform secure ELF packer" https://github.com/arisada/midgetpack
 - "ELF Binary Code Injection, Loader/'Decrypter'" http://www.pinkstyle.org/elfcrypt.html
-Exploitation
+
+### Exploitation
+
 - "Linux x86 Reverse Engineering - Shellcode Disassembling and XOR decryption" https://www.exploit-db.com/docs/33429.pdf
 - "Shellcoding in Linux" https://www.exploit-db.com/docs/21013.pdf
 - "Linux (x86) Exploit Development Series" https://sploitfun.wordpress.com/2015/06/26/linux-x86-exploit-development-tutorial-series/
@@ -87,7 +97,9 @@ Exploitation
 - "Practice and learning in the world of C RE and exploit analysis" https://github.com/211217613/C-Hacking
 - "Modern Binary Exploitation" http://security.cs.rpi.edu/courses/binexp-spring2015/ (not strictly related to Linux)
 - "Advanced exploitation on Linux: ROP and infoleaks" https://speakerdeck.com/milkmix/advanced-exploitation-on-linux-rop-and-infoleaks
-Anti techniques
+
+### Anti techniques
+
 - "LINUX ANTI-DEBUGGING TECHNIQUES (FOOLING THE DEBUGGER)" http://www.ouah.org/linux-anti-debugging.txt
 - "Beginners guide to basic Linux anti anti debugging techniques" http://www.stonedcoder.org/~kd/lib/14-61-1-PB.pdf
 - "Kickers of ELF" http://www.muppetlabs.com/~breadbox/software/elfkickers.html
@@ -104,7 +116,9 @@ https://github.com/antire-book/dont_panic
 - "More GDB Anti-Debugging" https://xorl.wordpress.com/2009/01/05/more-gdb-anti-debugging/
 - "How to detect virtualization on Linux" http://www.dmo.ca/blog/detecting-virtualization-on-linux/
 - "Mechanisms to determine VMWare VM" http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1009458
-Viruses & infection techniques
+
+### Viruses & infection techniques
+
 - "UNIX VIRUSES" http://ouah.org/unix-viruses.txt
 - "UNIX ELF PARASITES AND VIRUS" http://ouah.org/elf-pv.txt
 - "Linux viruses - ELF file format" by Marius Van Oers http://www.mcafee.com/us/resources/white-papers/wp-linux-viruses-elf-file-format.pdf
@@ -124,7 +138,9 @@ Viruses & infection techniques
 - VX Heaven collection of viruses http://vxer.org/vl.php?dir=Virus.Linux
 http://vxer.org/herm1t/
 - Source code of infection techniques http://vxer.org/herm1t/examples.tar.gz by herm1t
-- Linux kernel, rootkits, and LKM development
+
+### Linux kernel, rootkits, and LKM development
+
 - Optional: "A series of posts about the linux kernel and its insides." http://0xax.gitbooks.io/linux-insides/content/index.html
 - Optional: "Kernel hacking HOWTO" http://kernelnewbies.org/New_Kernel_Hacking_HOWTO
 - "Anatomy of the Linux kernel" http://www.ibm.com/developerworks/linux/library/l-linux-kernel/index.html
@@ -164,7 +180,9 @@ https://github.com/mfontanini/Programs-Scripts/blob/master/rootkit/rootkit.c
 - "Linux Data Structures" http://tldp.org/LDP/tlk/ds/ds.html
 - "Status of the Kernel Self Protection Project" https://outflux.net/slides/2016/lss/kspp.pdf
 - "The Proc Connector and Socket Filters" http://netsplit.com/the-proc-connector-and-socket-filters
-Crackmes and challenges
+
+### Crackmes and challenges
+
 - "Exercises for learning Reverse Engineering and Exploitation." https://github.com/wapiflapi/exrs
 - "IOLI crackme" http://dustri.org/b/files/IOLI-crackme.tar.gz
 http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/2/challenges.zip from "Modern Binary Exploitation"
@@ -183,7 +201,9 @@ Analyzes, "hands-on", analysis techniques
 https://samsymons.com/blog/reverse-engineering-with-radare2-part-1/
 - "Reverse Engineering With Radare2 – Part 2" https://insinuator.net/2016/08/reverse-engineering-with-radare2-part-2/
 - "Reverse Engineering With Radare2 – Part 3" https://insinuator.net/2016/10/reverse-engineering-with-radare2-part-3/
-###Research and development
+
+### Research and development
+
 - "Understanding Linux Malware" http://www.s3.eurecom.fr/docs/oakland18_cozzi.pdf (good paper!)
 binary samples for testing https://github.com/JonathanSalwan
 - "ELF Eccentricities - Julian Bangert, Sergey Bratus" https://www.youtube.com/watch?v=4LU6N6THh2U
@@ -202,7 +222,9 @@ http://www.bitlackeys.org (all of it)
 - "Writing a Linux Debugger Part 2: Breakpoints" http://blog.tartanllama.xyz/c++/2017/03/24/writing-a-linux-debugger-breakpoints/
 - "Writing a Linux Debugger Part 3: Registers and memory" http://blog.tartanllama.xyz/c++/2017/03/31/writing-a-linux-debugger-registers/
 - "Writing a Linux Debugger Part 4: Elves and dwarves" http://blog.tartanllama.xyz/c++/2017/04/05/writing-a-linux-debugger-elf-dwarf/
-Tools
+
+### Tools
+
 - "Quickly determine the capabilities of an ELF binary through static analysis" http://elfparser.com/
 - "LIEF (Library to Instrument Executable Formats) https://lief.quarkslab.com/"
 - "[shmcat] Dumps the contents of a SysV shared memory segment" https://github.com/niklata/shmcat
@@ -214,7 +236,8 @@ Tools
 - "MoVP 1.5 KBeast Rootkit, Detecting Hidden Modules, and sysfs " http://volatility-labs.blogspot.sk/2012/09/movp-15-kbeast-rootkit-detecting-hidden.html
 https://github.com/detuxsandbox/detux
 
-###Other
+### Other
+
 - "Building a concrete alternative to IDA - Radare2 to the rescue!" https://recon.cx/2015/slides/recon2015-04-jeffrey-crowell-julien-voisin-Radare2-building-a-new-IDA.pdf
 - "Introduction to Reverse Engineering Software in Linux" http://ouah.org/RevEng/
 - "Radare2 book" http://radare.gitbooks.io/radare2book/content/
@@ -233,7 +256,8 @@ https://people.debian.org/~aurel32/qemu/
 - "Why is the ELF execution entry point virtual address of the form 0x80xxxxx and not zero 0x0?" http://stackoverflow.com/questions/2187484/why-is-the-elf-execution-entry-point-virtual-address-of-the-form-0x80xxxxx-and-n
 - "Why do virtual memory addresses for linux binaries start at 0x8048000?" http://stackoverflow.com/questions/2966426/why-do-virtual-memory-addresses-for-linux-binaries-start-at-0x8048000
 
-###Books
+### Books
+
 - "Malware Forensics Field Guide for Linux Systems" by Cameron H. Malin, Eoghan Casey, James M. Aquilina
 - "Linux (Bezpečnosť a exploity)" by Miroslav Dobšíček and Radim Ballner
 - "Hacking: The Art of Exploitation" by Jon Erickson
